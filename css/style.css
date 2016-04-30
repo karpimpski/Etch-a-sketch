@@ -1,0 +1,40 @@
+.box{
+	width: 10px;
+	height: 10px;
+	background: white;
+	border: 1px solid black;
+	margin-right: 1px;
+	display: inline-block;
+}
+
+body{
+	background: gray;
+	margin-top: 30px;
+}
+
+.blue{
+	background: blue;
+}
+
+#board{
+	margin-top: 5px	;
+}
+
+.row{
+	margin-bottom: 1px;
+}
+
+button{
+	background: white;
+	border: none;
+	border-radius: 2px;
+	color: black;
+}
+
+button:focus{
+	outline: none;
+}
+
+button:active{
+	opacity: .7;
+}
